@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BF9017225EB57FE00C6A97E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9017125EB57FE00C6A97E /* AppDelegate.swift */; };
+		9BF9017425EB57FE00C6A97E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9017325EB57FE00C6A97E /* GameScene.sks */; };
+		9BF9017625EB57FE00C6A97E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9017525EB57FE00C6A97E /* Actions.sks */; };
+		9BF9017825EB57FE00C6A97E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9017725EB57FE00C6A97E /* GameScene.swift */; };
+		9BF9017A25EB57FE00C6A97E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9017925EB57FE00C6A97E /* ViewController.swift */; };
+		9BF9017C25EB57FE00C6A97E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9017B25EB57FE00C6A97E /* Assets.xcassets */; };
+		9BF9017F25EB57FE00C6A97E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9017D25EB57FE00C6A97E /* Main.storyboard */; };
+		9BF9018B25EB57FE00C6A97E /* SnekTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9018A25EB57FE00C6A97E /* SnekTests.swift */; };
+		9BF9019625EB57FE00C6A97E /* SnekUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9019525EB57FE00C6A97E /* SnekUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BF9018725EB57FE00C6A97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF9016625EB57FE00C6A97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF9016D25EB57FE00C6A97E;
+			remoteInfo = Snek;
+		};
+		9BF9019225EB57FE00C6A97E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BF9016625EB57FE00C6A97E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BF9016D25EB57FE00C6A97E;
+			remoteInfo = Snek;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BF9016E25EB57FE00C6A97E /* Snek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF9017125EB57FE00C6A97E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BF9017325EB57FE00C6A97E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9BF9017525EB57FE00C6A97E /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9BF9017725EB57FE00C6A97E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9BF9017925EB57FE00C6A97E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9BF9017B25EB57FE00C6A97E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BF9017E25EB57FE00C6A97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BF9018025EB57FE00C6A97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF9018125EB57FE00C6A97E /* Snek.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snek.entitlements; sourceTree = "<group>"; };
+		9BF9018625EB57FE00C6A97E /* SnekTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnekTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF9018A25EB57FE00C6A97E /* SnekTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnekTests.swift; sourceTree = "<group>"; };
+		9BF9018C25EB57FE00C6A97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BF9019125EB57FE00C6A97E /* SnekUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnekUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF9019525EB57FE00C6A97E /* SnekUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnekUITests.swift; sourceTree = "<group>"; };
+		9BF9019725EB57FE00C6A97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BF9016B25EB57FE00C6A97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF9018325EB57FE00C6A97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF9018E25EB57FE00C6A97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BF9016525EB57FE00C6A97E = {
+			isa = PBXGroup;
+			children = (
+				9BF9017025EB57FE00C6A97E /* Snek */,
+				9BF9018925EB57FE00C6A97E /* SnekTests */,
+				9BF9019425EB57FE00C6A97E /* SnekUITests */,
+				9BF9016F25EB57FE00C6A97E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BF9016F25EB57FE00C6A97E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9016E25EB57FE00C6A97E /* Snek.app */,
+				9BF9018625EB57FE00C6A97E /* SnekTests.xctest */,
+				9BF9019125EB57FE00C6A97E /* SnekUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BF9017025EB57FE00C6A97E /* Snek */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9017125EB57FE00C6A97E /* AppDelegate.swift */,
+				9BF9017325EB57FE00C6A97E /* GameScene.sks */,
+				9BF9017525EB57FE00C6A97E /* Actions.sks */,
+				9BF9017725EB57FE00C6A97E /* GameScene.swift */,
+				9BF9017925EB57FE00C6A97E /* ViewController.swift */,
+				9BF9017B25EB57FE00C6A97E /* Assets.xcassets */,
+				9BF9017D25EB57FE00C6A97E /* Main.storyboard */,
+				9BF9018025EB57FE00C6A97E /* Info.plist */,
+				9BF9018125EB57FE00C6A97E /* Snek.entitlements */,
+			);
+			path = Snek;
+			sourceTree = "<group>";
+		};
+		9BF9018925EB57FE00C6A97E /* SnekTests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9018A25EB57FE00C6A97E /* SnekTests.swift */,
+				9BF9018C25EB57FE00C6A97E /* Info.plist */,
+			);
+			path = SnekTests;
+			sourceTree = "<group>";
+		};
+		9BF9019425EB57FE00C6A97E /* SnekUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9019525EB57FE00C6A97E /* SnekUITests.swift */,
+				9BF9019725EB57FE00C6A97E /* Info.plist */,
+			);
+			path = SnekUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BF9016D25EB57FE00C6A97E /* Snek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF9019A25EB57FE00C6A97E /* Build configuration list for PBXNativeTarget "Snek" */;
+			buildPhases = (
+				9BF9016A25EB57FE00C6A97E /* Sources */,
+				9BF9016B25EB57FE00C6A97E /* Frameworks */,
+				9BF9016C25EB57FE00C6A97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snek;
+			productName = Snek;
+			productReference = 9BF9016E25EB57FE00C6A97E /* Snek.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BF9018525EB57FE00C6A97E /* SnekTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF9019D25EB57FE00C6A97E /* Build configuration list for PBXNativeTarget "SnekTests" */;
+			buildPhases = (
+				9BF9018225EB57FE00C6A97E /* Sources */,
+				9BF9018325EB57FE00C6A97E /* Frameworks */,
+				9BF9018425EB57FE00C6A97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF9018825EB57FE00C6A97E /* PBXTargetDependency */,
+			);
+			name = SnekTests;
+			productName = SnekTests;
+			productReference = 9BF9018625EB57FE00C6A97E /* SnekTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BF9019025EB57FE00C6A97E /* SnekUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BF901A025EB57FE00C6A97E /* Build configuration list for PBXNativeTarget "SnekUITests" */;
+			buildPhases = (
+				9BF9018D25EB57FE00C6A97E /* Sources */,
+				9BF9018E25EB57FE00C6A97E /* Frameworks */,
+				9BF9018F25EB57FE00C6A97E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BF9019325EB57FE00C6A97E /* PBXTargetDependency */,
+			);
+			name = SnekUITests;
+			productName = SnekUITests;
+			productReference = 9BF9019125EB57FE00C6A97E /* SnekUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BF9016625EB57FE00C6A97E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9BF9016D25EB57FE00C6A97E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					9BF9018525EB57FE00C6A97E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9BF9016D25EB57FE00C6A97E;
+					};
+					9BF9019025EB57FE00C6A97E = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 9BF9016D25EB57FE00C6A97E;
+					};
+				};
+			};
+			buildConfigurationList = 9BF9016925EB57FE00C6A97E /* Build configuration list for PBXProject "Snek" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BF9016525EB57FE00C6A97E;
+			productRefGroup = 9BF9016F25EB57FE00C6A97E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BF9016D25EB57FE00C6A97E /* Snek */,
+				9BF9018525EB57FE00C6A97E /* SnekTests */,
+				9BF9019025EB57FE00C6A97E /* SnekUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BF9016C25EB57FE00C6A97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF9017425EB57FE00C6A97E /* GameScene.sks in Resources */,
+				9BF9017C25EB57FE00C6A97E /* Assets.xcassets in Resources */,
+				9BF9017625EB57FE00C6A97E /* Actions.sks in Resources */,
+				9BF9017F25EB57FE00C6A97E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF9018425EB57FE00C6A97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF9018F25EB57FE00C6A97E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BF9016A25EB57FE00C6A97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF9017A25EB57FE00C6A97E /* ViewController.swift in Sources */,
+				9BF9017825EB57FE00C6A97E /* GameScene.swift in Sources */,
+				9BF9017225EB57FE00C6A97E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF9018225EB57FE00C6A97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF9018B25EB57FE00C6A97E /* SnekTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BF9018D25EB57FE00C6A97E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF9019625EB57FE00C6A97E /* SnekUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BF9018825EB57FE00C6A97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF9016D25EB57FE00C6A97E /* Snek */;
+			targetProxy = 9BF9018725EB57FE00C6A97E /* PBXContainerItemProxy */;
+		};
+		9BF9019325EB57FE00C6A97E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BF9016D25EB57FE00C6A97E /* Snek */;
+			targetProxy = 9BF9019225EB57FE00C6A97E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BF9017D25EB57FE00C6A97E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BF9017E25EB57FE00C6A97E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BF9019825EB57FE00C6A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BF9019925EB57FE00C6A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9BF9019B25EB57FE00C6A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snek/Snek.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Snek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sppedrunner.Snek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9BF9019C25EB57FE00C6A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Snek/Snek.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Snek/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sppedrunner.Snek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9BF9019E25EB57FE00C6A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Sppedrunner.SnekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snek.app/Contents/MacOS/Snek";
+			};
+			name = Debug;
+		};
+		9BF9019F25EB57FE00C6A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnekTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Sppedrunner.SnekTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snek.app/Contents/MacOS/Snek";
+			};
+			name = Release;
+		};
+		9BF901A125EB57FE00C6A97E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sppedrunner.SnekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Snek;
+			};
+			name = Debug;
+		};
+		9BF901A225EB57FE00C6A97E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SnekUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sppedrunner.SnekUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Snek;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BF9016925EB57FE00C6A97E /* Build configuration list for PBXProject "Snek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF9019825EB57FE00C6A97E /* Debug */,
+				9BF9019925EB57FE00C6A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF9019A25EB57FE00C6A97E /* Build configuration list for PBXNativeTarget "Snek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF9019B25EB57FE00C6A97E /* Debug */,
+				9BF9019C25EB57FE00C6A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF9019D25EB57FE00C6A97E /* Build configuration list for PBXNativeTarget "SnekTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF9019E25EB57FE00C6A97E /* Debug */,
+				9BF9019F25EB57FE00C6A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BF901A025EB57FE00C6A97E /* Build configuration list for PBXNativeTarget "SnekUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BF901A125EB57FE00C6A97E /* Debug */,
+				9BF901A225EB57FE00C6A97E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BF9016625EB57FE00C6A97E /* Project object */;
+}
